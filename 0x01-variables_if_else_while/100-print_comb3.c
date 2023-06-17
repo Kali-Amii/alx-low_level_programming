@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -8,7 +7,6 @@
 
 int main(void)
 {
-
 	int n, m;
 
 	for (n = 48; n <= 56; n++)
@@ -19,16 +17,14 @@ int main(void)
 	{
 
 	if (m > n)
-	{
 
+	{
 		putchar(n);
 		putchar(m);
+	if (n != 56 || m != 57)
 
-	if (n != 56 || m != 57
 	{
-
 		putchar(',');
-
 		putchar(' ');
 	}
 
@@ -43,3 +39,4 @@ int main(void)
 	return (0);
 
 }
+
