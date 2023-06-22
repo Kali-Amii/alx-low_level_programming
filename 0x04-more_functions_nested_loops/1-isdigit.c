@@ -14,7 +14,7 @@ int _isdigit(int c)
 	int num = c;
 	int digit = 48;
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <=9; i++)
 	{
 		if (num == digit)
 		{
