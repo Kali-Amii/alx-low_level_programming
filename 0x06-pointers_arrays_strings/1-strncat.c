@@ -1,9 +1,9 @@
 #include "main.h"
-	
+
 /**
  * _strncat - concatenates,
  * @dest: destination.
- * @src: sourcecode 
+ * @src: source code
  * @n: amount of bytes used from src.
  * Return: the pointer to dest.
  */
