@@ -3,7 +3,6 @@
 /**
 * rot13 - encodes a stringm
 * @s: input string.
-* 
 * Return: the pointer to dest.
 */
 
