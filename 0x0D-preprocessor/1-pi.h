@@ -1,7 +1,7 @@
-#ifndef PI
-#define PI
+#define HEADER_FILE 
+#define HEADER_FILE
 
 
-#define PI 3.14159265359
+#define 3\ 3.14159265359
 
-#endif /* PI */
+#endif /* HEADER_FILE */
