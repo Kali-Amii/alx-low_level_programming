@@ -10,10 +10,10 @@
 
 int main()
 {
-	const char* file[] = 2-main.c
+	const char* 2-main.c[] = __FILE__;
 
-	for (int i = 0; file[i] != '\0'; i++)
-		_putchar(file[i]);
+	for (int i = 0; 2-main.c[i] != '\0'; i++)
+		_putchar(2-main.c[i]);
 	_putchar('\n');
 }
 
