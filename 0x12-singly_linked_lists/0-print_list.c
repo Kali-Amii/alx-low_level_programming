@@ -1,14 +1,15 @@
 #include "lists.h"
+
 /**
- * print_list -  function that prints all the elements of a list_t list
- * @h: pointer to the list
+ * print_list - Print all elements of a list_t list
+ * @h: Pointer to the first element of the list
  *
- * Return: len of list
+ * Return: Number of elements in the list
  */
 
 size_t print_list(const list_t *h)
 {
-	unsigned long int temp = 0;
+	size_t tem;
 
 	while (h)
 	{
@@ -24,4 +25,11 @@ size_t print_list(const list_t *h)
 	}
 
 	return (temp);
+	if (h == NULL)
+		return (0);
+	tem = 1;
+	printf("[%d] %s\n", h->len, h->str);
+	if (h->next != NULL)
+		tem += print_list(h->next);
+	return (tem);
 }
