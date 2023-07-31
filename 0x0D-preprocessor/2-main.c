@@ -1,5 +1,4 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -8,13 +7,8 @@
  * return: nothing
  */
 
-int main()
+int main(void)
 {
-	const char* 2-main.c[] = __FILE__;
-
-	for (int i = 0; 2-main.c[i] != '\0'; i++)
-		_putchar(2-main.c[i]);
-	_putchar('\n');
+	printf("%s\n", __FILE__);
+	return (0);
 }
-
-#endif /* HEADER_FILE */
