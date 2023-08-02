@@ -1,6 +1,8 @@
 #ifndef _LISTS_H_
 #define _LISTS_H_
 
+#include <stddef.h>
+#include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -29,4 +31,4 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index);
 listint_t *reverse_listint(listint_t **head);
 
 
-#endif /* _LISTS_H_ */ 
+#endif /* _LISTS_H_ */
